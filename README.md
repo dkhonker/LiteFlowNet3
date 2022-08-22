@@ -30,7 +30,7 @@ It's tested with pytorch 1.10.0 and cuda-11.3.
 
 **PS:**
 
-As `lhao0301`  said:
+As `sniklaus`  said:
 
 I am afraid that I cannot guarantee that this reimplementation is correct. However, it produced results pretty much identical to the implementation of the original authors in the examples that I tried. There are some numerical deviations that stem from differences in the `DownsampleLayer` of Caffe and the `torch.nn.functional.interpolate` function of PyTorch. 
 
